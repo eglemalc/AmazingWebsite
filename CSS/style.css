@@ -1,0 +1,137 @@
+/* general */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header */
+
+.nav-bg {
+  background-color: grey;
+}
+
+nav a {
+  margin: 5px 50px;
+}
+
+.navbar-brand {
+  justify-content: flex-start;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+#carouselExampleCaptions {
+  height: 800px;
+}
+
+img {
+  height: 800px;
+}
+
+.contacts-bg {
+  background-color: grey;
+  padding: 20px 0;
+}
+
+.contacts-bg i {
+  font-size: 50px;
+}
+
+.penguinTown,
+.contactThem,
+.footer {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.card {
+  position: relative;
+}
+
+.cards-row {
+  margin: 10px 0;
+}
+
+.card img {
+  height: 300px;
+}
+
+.card a {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+}
+
+.contactThem,
+.footer {
+  background-color: grey;
+  padding: 20px;
+}
+
+button {
+  height: 28px;
+  width: 80px;
+  background-image: url(../IMG/google.png);
+  background-color: grey;
+  background-size: contain;
+  border: none;
+  border-radius: 12px;
+}
+
+.first-line {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.lists i {
+  margin: 0 10px;
+}
+
+@media (max-width: 2000px) {
+  #carouselExampleCaptions {
+    height: 600px;
+  }
+
+  img {
+    height: 600px;
+  }
+}
+
+@media (max-width: 1500px) {
+  #carouselExampleCaptions {
+    height: 400px;
+  }
+
+  img {
+    height: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-fluid,
+  .container,
+  .slideBar,
+  .penguinTown,
+  .cards-row,
+  .contactThem,
+  .footer {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .contactThem {
+    margin: 40px 0;
+  }
+  button {
+    height: 28px;
+    width: 80px;
+    background-color: grey;
+    background-size: contain;
+    border: none;
+    border-radius: 12px;
+  }
+}
+@media (max-width: 700px) {
+}
